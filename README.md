@@ -1,1 +1,6 @@
-# DEEPCLAUD
+需要langchain langchain-deepseek langchain_tavily库
+.env中需要
+DEEPSEEK_API_KEY
+TAVILY_API_KEY
+其中DEEPSEEK_API_KEY要是真实有效的，TAVILY_API_KEY可以随便输
+运行第1，3和最后一个单元格即可
