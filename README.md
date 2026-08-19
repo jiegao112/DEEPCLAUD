@@ -1,6 +1,17 @@
-需要langchain langchain-deepseek langchain_tavily库
-.env中需要
-DEEPSEEK_API_KEY
-TAVILY_API_KEY
-其中DEEPSEEK_API_KEY要是真实有效的，TAVILY_API_KEY可以随便输
-运行第1，3和最后一个单元格即可
+# 环境配置与运行说明
+
+## 依赖库
+
+需要安装以下 Python 库：
+
+- `langchain`
+- `langchain-deepseek`
+- `langchain_tavily`
+
+## 环境变量
+
+在项目根目录下创建 `.env` 文件，并配置以下变量：
+
+```env
+DEEPSEEK_API_KEY=你的真实有效API密钥
+TAVILY_API_KEY=任意字符串（可随便填写）
